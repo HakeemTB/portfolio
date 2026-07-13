@@ -30,6 +30,7 @@ body {
 .date {
   color: #999;
   margin-bottom: 40px;
+  font-size: 1rem;
 }
 
 .bio {
@@ -81,3 +82,16 @@ h3 {
   animation: cursor-blink 2s infinite;
 }
 
+.footer{
+  color: #999;
+  font-size: 0.7rem;
+  text-align: auto;
+  margin-top: 40px;
+}
+
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
